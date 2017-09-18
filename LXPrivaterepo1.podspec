@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint LXPrivaterepo1.podspec' to ensure this is a
+#  Be sure to run `pod spec lint LXPrivateRepo1.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "LXPrivaterepo1"
+  s.name         = "LXPrivateRepo1"
   s.version      = "0.0.1"
-  s.summary      = "a test"
+  s.summary      = "a simple test"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  					a provate repo test
+                    a simple test for repo 
                    DESC
 
   s.homepage     = "https://github.com/DarcyYangjie/LXPrivateRepo1"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/DarcyYangjie/LXPrivateRepo1", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/DarcyYangjie/LXPrivateRepo1.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "LXPrivaterepo1/LXPrivaterepo1**/*.{h,m}"
+  s.source_files  = "LXPrivateRepo1", "LXPrivateRepo1/LXPrivateRepo1/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
